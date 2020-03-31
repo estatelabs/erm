@@ -128,7 +128,7 @@ strong {
 }
 
 .u-highlight {
-  color: #0F94D6;
+  color: #ff5a00;
 }
 
 .u-dontfold {
@@ -574,10 +574,10 @@ pre code.hljs {
   &--create,
   &--success {
     color: white;
-    background: hsl(145, 51%, 45%);
+    background: hsl(21, 100%, 50%);
 
     &:active {
-      background: hsl(145, 51%, 35%);
+      background: hsl(21, 100%, 40%);
     }
 
     &.btn--secondary {
@@ -4701,7 +4701,7 @@ li.add .dropdown-nose {
 .nav-pills > li > a:focus,
 .nav-pills > li > a:active,
 .nav-pills .nav-pills-placeholder {
-  color: #0f94d6;
+  color: #fb6340;
   border-radius: 0;
   background: transparent; /* a:focus, a:active with bg: transparent fixes gray focus bg in IE 10 */
   display: flex;
@@ -8120,12 +8120,14 @@ li.dropdown-header {
 }
 
 .wizard {
-  margin: auto; // makes sure that the wizard is scrollable
+  // makes sure that the wizard is scrollable
+  margin: 30px auto auto;
 }
 
 .wizard-logo {
   fill: white;
   @include bidi-style(margin-left, -25px, margin-right, 0);
+  margin-top: 50px;
   margin-bottom: 5px;
 }
 
