@@ -305,7 +305,7 @@ class Base extends App.WizardFullScreen
     organization = App.Config.get('organization')
     @html App.view('getting_started/base')(
       url:          url
-      logoUrl:      "#{@Config.get('image_path')}/coloured-#{@Config.get('product_logo')}"
+      logoUrl:      @logoUrl()
       organization: organization
     )
     @$('input, select').first().focus()
