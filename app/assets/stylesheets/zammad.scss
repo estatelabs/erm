@@ -3722,7 +3722,7 @@ footer {
 
 .navigation {
   width: $navigationWidth;
-  background: hsl(232, 10%, 16%);
+  background: hsl(223, 39%, 16%);
   position: relative;
 }
 
@@ -3856,7 +3856,7 @@ footer {
 }
 
 .tasks {
-  background: #2c2d36;
+  background: hsl(223, 39%, 12%);
   flex: 1;
   overflow: auto;
 }
@@ -4327,7 +4327,7 @@ input[type=search]::-webkit-search-decoration {
 
 .user-menu > li {
   flex: 1;
-  background: #26272e;
+  background: hsl(223, 39%, 16%);
 }
 
 .user-menu .list-button {
@@ -4373,7 +4373,7 @@ input[type=search]::-webkit-search-decoration {
 }
 
 .user-menu-icon.icon-plus {
-  fill: hsl(145, 51%, 45%);
+  fill: hsl(21, 100%, 50%)
 }
 
 .user-menu > li:hover .user-menu-icon {
@@ -4391,7 +4391,7 @@ input[type=search]::-webkit-search-decoration {
 }
 
 .user-menu > li:not(:last-child) {
-  border-right: 1px solid #2c2d36;
+  border-right: 1px solid hsl(223, 39%, 12%);
 }
 
 .dropdown-nose {
