@@ -3707,16 +3707,21 @@ footer {
   top: 0;
   width: 100%;
   height: 100%;
-  background: hsl(210, 0%, 98%);
+  background: hsl(223, 39%, 16%);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  color: hsl(0, 0%, 45%);
+  //color: hsl(0, 0%, 45%);
 
   .icon {
     @include bidi-style(margin-right, 10px, margin-left, 0);
-    filter: grayscale(90%);
+    //filter: grayscale(90%);
+  }
+
+  // Custom
+  .splash-title {
+    color: hsl(0, 0%, 100%);
   }
 }
 
@@ -4232,7 +4237,7 @@ input[type=search]::-webkit-search-decoration {
 .search .logo .activity-counter {
   min-width: 21px;
   position: absolute;
-  right: -3px;
+  right: -8px;
   bottom: 2px;
   padding: 0 4px;
   font-size: 12px;
@@ -4241,7 +4246,7 @@ input[type=search]::-webkit-search-decoration {
   text-align: center;
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .21);
-  background: hsl(360, 71%, 60%);
+  background: 	hsl(21, 100%, 50%);
   border-radius: 10px;
   border: 2px solid hsl(233, 10%, 16%);
 }
@@ -4369,7 +4374,7 @@ input[type=search]::-webkit-search-decoration {
 .user-menu-icon {
   width: 20px;
   height: 20px;
-  fill: hsl(0, 0%, 30%);
+  fill: hsl(0, 0%, 80%);
 }
 
 .user-menu-icon.icon-plus {
@@ -7464,7 +7469,7 @@ a.list-group-item.active > .badge,
 }
 
 .dropdown-menu.dropdown-menu--light > li {
-  color: hsl(202, 70%, 49%);
+  color: hsl(223, 39%, 16%);
 
   &.dropdown-header {
     color: hsl(198, 19%, 72%);
@@ -7472,7 +7477,7 @@ a.list-group-item.active > .badge,
 }
 
 .dropdown-menu.dropdown-menu--light > li > a:hover {
-  color: #2594d4;
+  color: #ff5a00;
   background: rgba(0, 0, 0, .05);
 }
 
