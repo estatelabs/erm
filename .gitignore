@@ -87,3 +87,14 @@
 
 # Backup files
 *~
+
+# Estate Labs
+/.bashrc
+/.generators
+/.rakeTasks
+/yarn.lock
+/public/assets/addons/README-93260400b4a86248c0586a965245ec8f40a912e17f08b532c51a5fc3273a1b46.txt
+/public/assets/addons/README-93260400b4a86248c0586a965245ec8f40a912e17f08b532c51a5fc3273a1b46.txt.gz
+/.bash_history
+/.yarnrc
+/.irb-history

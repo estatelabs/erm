@@ -11,6 +11,7 @@
       <% end %>
 
       <div class="hero-unit">
+        <h3 class="text-center"><%= @C('product_name') %></h3>
         <img class="company-logo" src="<%= @logoUrl %>" alt="<%= @C('product_name') %>">
         <form id="login">
           <div class="form-group">
@@ -84,8 +85,6 @@
     </div>
   </div>
   <div class="poweredBy">
-    <a href="https://zammad.org" target="_blank"><%- @Icon('logo') %></a>
-    <%- @T('Powered by') %>
-    <a href="https://zammad.org" target="_blank"><%- @Icon('logotype', 'logotype') %></a>
+    <a href="https://estate-labs.com" target="_blank"><%- @Icon('logo') %></a>
   </div>
 </div>

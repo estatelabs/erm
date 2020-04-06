@@ -27,7 +27,7 @@ class App.KnowledgeBaseNewModal extends App.ControllerModal
 
   applyDefaults: (params) ->
     params['iconset']         = 'FontAwesome'
-    params['color_highlight'] = '#38ae6a'
+    params['color_highlight'] = '#ff5a00'
     params['color_header']    = '#f9fafb'
     params['homepage_layout'] = 'grid'
     params['category_layout'] = 'grid'

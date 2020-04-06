@@ -41,7 +41,7 @@
 .icon-file-word { width: 24px; height: 31px; }
 .icon-form { width: 17px; height: 17px; }
 .icon-forward { width: 16px; height: 17px; }
-.icon-full-logo { width: 175px; height: 50px; }
+.icon-full-logo { width: auto; height: 200px; }
 .icon-github-button { width: 29px; height: 24px; }
 .icon-gitlab-button { width: 29px; height: 24px; }
 .icon-google-button { width: 29px; height: 24px; }
@@ -64,6 +64,7 @@
 .icon-loading { width: 16px; height: 16px; }
 .icon-lock-open { width: 16px; height: 17px; }
 .icon-lock { width: 16px; height: 17px; }
+.icon-nav-logo { width: 42px; height: 36px; }
 .icon-logo { width: 42px; height: 36px; }
 .icon-logotype { width: 91px; height: 15px; }
 .icon-long-arrow-down { width: 11px; height: 11px; }
