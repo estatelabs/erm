@@ -618,7 +618,7 @@ pre code.hljs {
     font-size: inherit;
     margin: -10px;
     padding: 10px;
-    color: hsl(203, 65%, 55%);
+    color: hsl(21, 100%, 50%);
     border: none;
     background: none;
     vertical-align: baseline;
@@ -860,7 +860,7 @@ pre code.hljs {
     border-radius: 3px;
 
     &.is-selected {
-      background: hsl(203, 65%, 55%);
+      background: hsl(223, 39%, 16%);
       color: white;
     }
   }
@@ -3773,7 +3773,7 @@ footer {
   }
 
   &:hover {
-    background: hsl(230, 10%, 13%);
+    background: hsl(223, 39%, 12%);
     border-bottom-color: rgba(240, 250, 255, .08);
   }
 
@@ -3791,12 +3791,12 @@ footer {
 
   &.is-active,
   &.is-hovered {
-    background: hsl(202, 68%, 54%);
+    background: hsl(21, 100%, 50%);
   }
 
   &.is-active .zammad-switch {
     input:not(:checked) + label { // switch background
-      background: hsl(202, 68%, 43%);
+      background: hsl(21, 100%, 50%);
     }
 
     label:after {
@@ -3921,11 +3921,11 @@ footer {
 
 .tasks-navigation .nav-tab {
   height: 40px;
-  border-bottom: 1px solid #33363e;
+  border-bottom: 1px solid rgba(240, 250, 255, .05);
 }
 
 .tasks-navigation .nav-tab:not(.is-active):hover {
-  background: #26272e;
+  background: #192239;
 }
 
 .navigation .nav-tab-name {
@@ -3944,7 +3944,7 @@ footer {
 .nav-tab.is-active,
 .nav-tab.nav-tab--search:hover,
 .nav-tab.nav-tab--search.is-hover {
-  background: #389ed9;
+  background: #ff5a00;
   color: white;
 
   .nav-tab-icon .icon {
@@ -4013,7 +4013,7 @@ footer {
 .nav-tab-close-inner {
   width: 19px;
   height: 19px;
-  background-color: #2c2d36;
+  background-color: #192239;
   border-radius: 100%;
   display: flex;
   align-items: center;
@@ -4162,7 +4162,7 @@ footer {
   padding: 5px 33px 5px 33px;
   height: 30px;
   color: #ECECEC;
-  background: #31373b;
+  background: hsl(223, 39%, 12%);
   line-height: 20px;
   outline: none;
   border: none;
@@ -4257,7 +4257,7 @@ input[type=search]::-webkit-search-decoration {
 
 .global-search-menu {
   @extend .zIndex-7;
-  background: #26272e;
+  background: hsl(223, 39%, 12%);
   position: absolute;
   left: 0;
   right: 0;
@@ -4715,7 +4715,7 @@ li.add .dropdown-nose {
 .nav-pills > li > a:focus,
 .nav-pills > li > a:active,
 .nav-pills .nav-pills-placeholder {
-  color: #fb6340;
+  color: #192239;
   border-radius: 0;
   background: transparent; /* a:focus, a:active with bg: transparent fixes gray focus bg in IE 10 */
   display: flex;
@@ -4752,7 +4752,7 @@ li.add .dropdown-nose {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: white;
-  background: #2c2d36;
+  background: #192239;
   border-color: initial;
 }
 
@@ -7441,7 +7441,7 @@ a.list-group-item.active > .badge,
   color: white;
   text-transform: initial;
   letter-spacing: 0;
-  background: hsl(234, 10%, 19%);
+  background: hsl(223, 39%, 16%);
   border-radius: 0;
   border: none;
   box-shadow: none;
@@ -7522,7 +7522,7 @@ a.list-group-item.active > .badge,
 
 .dropdown li:hover,
 .dropdown li.is-active {
-  background: hsl(205, 90%, 60%);
+  background: hsl(21, 100%, 50%);
 
   + li {
     box-shadow: none;
@@ -8062,7 +8062,7 @@ li.dropdown-header {
 
   &.active {
     color: white;
-    background: hsl(206, 7%, 28%);
+    background: hsl(223, 39%, 16%);
   }
 
   a {
@@ -8972,12 +8972,12 @@ output {
 
   &:focus + label {
     transition: none;
-    background: hsl(200, 71%, 59%);
+    background: hsl(135, 59%, 49%);
     box-shadow: 0 0 0 3px hsl(201, 62%, 90%);
   }
 
   &:checked + label {
-    background: hsl(200, 71%, 59%);
+    background: hsl(135, 59%, 49%);
   }
 
   &:checked + label:after {
